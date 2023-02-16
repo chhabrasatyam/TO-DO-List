@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image:url(./images/back.jpg);
+  background-attachment: fixed;
+  object-fit: contain;
+  background-size: cover;
+  margin: 30px;
+  text-align: center;
+}
+
+#header {
+  color: white;
+  font-style: italic;
+  font-family: calibri;
+  font-weight: bold;
+  font-size: 70px;  
+}
+
+#Task {
+  width:50%;
+  border:none;
+  text-align: center;
+  font-size: 25px;
+  background-color:white;
+  opacity:0.7;
+  font-weight: bold;
+  height:50px;
+  margin-bottom: 20px;
+  outline: none;
+
+}
+
+#btn {
+  color: black;
+  background-color: #141d54;
+  height:40px;
+  width:130px;
+  border:none;
+  color:white;
+  font-size: 20px;
+  cursor:pointer;
+  font-style: italic;
+}
+
+ul li {
+  list-style: none;
+  width:40%;
+  margin: 5px;
+  margin-left:30%;
+  padding: 8px;
+  background-color:lightgreen;
+  opacity:0.9;
+  font-size: 18px;
+  font-family: calibri;
+  border-radius: 6px;
+}
